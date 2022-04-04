@@ -1,4 +1,4 @@
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import './node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import LoginPage from './components/LoginPage';
 import HotzoneCreator from './components/HotzoneCreator';
