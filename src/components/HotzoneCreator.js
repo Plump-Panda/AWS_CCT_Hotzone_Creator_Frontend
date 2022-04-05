@@ -20,8 +20,8 @@ function HotzoneCreator() {
 
     function handleSubmit(e){
         e.preventDefault();
-        setShowLongitudeError(false);
-        setShowLatitudeError(false);
+        // setShowLongitudeError(false);
+        // setShowLatitudeError(false);
         document.getElementById('latitude').style.display = "none";
         document.getElementById('longitude').style.display = "none";
 
@@ -35,11 +35,13 @@ function HotzoneCreator() {
         //     document.getElementById('longitude').style.display = "block";
         // }
         
-        if(!showLatitudeError && !showLongitudeError){
+        // if(!showLatitudeError && !showLongitudeError){
 
-            console.log('submit pressed');
-            sendDataToEventbridge();            
-        }
+        //     console.log('submit pressed');
+        //     sendDataToEventbridge();            
+        // }
+        sendDataToEventbridge();            
+
 
     }
 
