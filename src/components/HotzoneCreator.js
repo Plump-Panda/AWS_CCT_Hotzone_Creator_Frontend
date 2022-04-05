@@ -48,9 +48,9 @@ function HotzoneCreator() {
         const client = new EventBridgeClient({
             region: "us-east-1",
             credentials: {
-                accessKeyId: 'ASIATRCE5IHPH75PZOY3',
-                secretAccessKey: 'BgauXdp1Vt55Svh0PU7UMNRqt7yUS0R/84I8bmS8',
-                sessionToken:'FwoGZXIvYXdzEPz//////////wEaDJihikSFiauGPwhY8iLAAaOhn+kdnO+eECWwCyoM/WDFxbgG6vspZhbe0geksANCK32e9YbEdSSGldY47pgciiIVd1wqdzbXPBSDqtPXJih1rPIz+HWXomCHumu5JY/O1bMD/okst5uDhO9UxBQd3ocMxraQ0UHt/G5E9YCkfOB5jH57W/1iivaN8m0g1LuAjheAn/UX/RVLuPCvbjODupJohQ31lMvxK5hF2YX2ajpx7SYLAwn5QOhlFZsIiYUaU0E+0ebCsHp8BkvvhJRXtyi83K6SBjItVp9f5Ynl+E+/5lC8hFn+jnSB8lGP7AUUCcgBzYBTZul9NVQoHwQ/Ynrzvgyy'
+                accessKeyId: 'ASIATRCE5IHPBQMHVYCK',
+                secretAccessKey: '2/HNZoe3YG840ZVoUcJUoSkHxNr4FxeE5ARukXj2',
+                sessionToken:'FwoGZXIvYXdzEAwaDBeTpSlgvp9TWeoLLiLAAbiHgcniX1JB8zVKMDAN8Yfwr9QTbiQt89Q558YZclkHDB8xB87Ava3j28gAqdLqkt/HRNR1K85kupCebiP+ZJAQyxJ90m23rhHxPISerkbtVxon5dGUlPUeUc8LKxEogUXg7staHSb6g3HTuMhuiYkEIOoVsjZE0J0DSq9tWXyHZ5jFXGJA0ZhzhDwn/2lLSJPhiM3M8qdqkMrapWRFk9fiisqlfvbmpWM2BI2Qn8jVu7zZAFE8HfWyyEknBIUumSjgirKSBjIt6qSrM4CddSq1hUG9XvQ1M0LBR8CsAqKsjuAMP24scAlwwvHb5twRieKt+2SO'
             },
         });
 
