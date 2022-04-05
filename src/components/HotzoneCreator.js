@@ -25,15 +25,15 @@ function HotzoneCreator() {
         document.getElementById('latitude').style.display = "none";
         document.getElementById('longitude').style.display = "none";
 
-        if(!/^([0-9]+|\.[0-9]+)+$/gm.test(latitude)){
-            setShowLatitudeError(true);
-            document.getElementById('latitude').style.display = "block";
-        }
+        // if(!/^([0-9]+|\.[0-9]+)+$/gm.test(latitude)){
+        //     setShowLatitudeError(true);
+        //     document.getElementById('latitude').style.display = "block";
+        // }
 
-        if(!/^([0-9]+|\.[0-9]+)+$/gm.test(longitude)){
-            setShowLongitudeError(true);   
-            document.getElementById('longitude').style.display = "block";
-        }
+        // if(!/^([0-9]+|\.[0-9]+)+$/gm.test(longitude)){
+        //     setShowLongitudeError(true);   
+        //     document.getElementById('longitude').style.display = "block";
+        // }
         
         if(!showLatitudeError && !showLongitudeError){
 
